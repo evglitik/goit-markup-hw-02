@@ -14,13 +14,9 @@ body {
     --hero-background: #2F303A;
 }
 
-.link {
-    text-decoration: none;
-}
+.link { text-decoration: none; }
 
-.list {
-    list-style: none;
-}
+.list { list-style: none; }
 
 /* LOGO */
 .logo {
@@ -31,13 +27,9 @@ body {
     text-decoration: none;
 }
 
-.logo-web {
-    color: var(--link-brand-color);
-}
+.logo-web { color: var(--link-brand-color); }
 
-.logo-studio {
-    color: var(--text-black);
-}
+.logo-studio { color: var(--text-black); }
 
 /* NAVIGATION */
 .header-list,
@@ -48,9 +40,7 @@ body {
 
 }
 
-.header-link {
-    color: var(--text-black);
-}
+.header-link { color: var(--text-black); }
 
 .header-link:hover,
 .header-link:focus {
@@ -162,9 +152,7 @@ body {
 }
 
 /* Цвета как на макете
-.address {
-    color: var(--project-background)
-}
+.address { color: var(--project-background) }
 
 .footer-mail,
 .footer-tell {
