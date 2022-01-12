@@ -1,8 +1,149 @@
-body {
 
+body {
+    font-family: "Roboto", sans-serif;
+
+    background-color: var(--project-background);
 }
 
 /* переменные */
 :root {
+    --link-brand-color: #2196F3;
+    --text-black: #212121;
+    --text-gray: #757575;
+    --project-background: #FFFFFF;
+    --hero-background: #2F303A;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* LOGO */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--link-brand-color);
+}
+
+.logo-studio {
+    color: var(--text-black);
+}
+
+/* NAVIGATION */
+.header-list,
+.header-contact-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 
 }
+
+.header-link {
+    color: var(--text-black);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--link-brand-color);
+}
+
+/* CONTACT */
+.header-mail,
+.header-tell {
+    color: var(--text-gray);
+}
+
+.header-mail:focus,
+.header-mail:hover,
+.header-tell:focus,
+.header-tell:hover {
+    color: var(--link-brand-color);
+}
+
+/* HERRO */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--hero-background); /*ВРЕМЕННО, ЗАМЕНИТЬ ПОСЛЕ ДОБАВЛЕНИЯ ФОНА*/
+}
+
+.btn-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    border:none;
+
+    color: var(--project-background);
+    background-color: var(--link-brand-color);
+
+    padding: 25px 100px;  /* ВРЕМЕНО! */
+
+    cursor: pointer;
+}
+
+/* PERECULIARITES */
+    /* .peculiarites-title {скрыть в будущем тайтл секции} */
+.peculiarity-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+
+    color: var(--text-black);
+    }
+
+.peculiarity-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--text-gray);
+    }
+
+/* ABAUT US + TEAM*/
+.about-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--text-black);
+}
+
+.teammate-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+
+    color: var(--text-black);
+}
+
+.teammate-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+
+    color: var(--text-gray)
+}
+
+
+
+
