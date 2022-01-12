@@ -66,7 +66,11 @@ body {
 .header-mail:focus,
 .header-mail:hover,
 .header-tell:focus,
-.header-tell:hover {
+.header-tell:hover,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tell:hover,
+.footer-tell:focus {
     color: var(--link-brand-color);
 }
 
@@ -109,7 +113,6 @@ body {
     }
 
 .peculiarity-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 
@@ -137,13 +140,72 @@ body {
 }
 
 .teammate-profession {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
 
     color: var(--text-gray)
 }
 
+/* FOOTER */
+.address,
+.footer-mail,
+.footer-tell {
+    font-size: 14px;
+    line-height: 1.71;
+}
 
+/* Временные цвета, для видимости текста */
+.address,
+.footer-mail,
+.footer-tell {
+    color: var(--hero-background);
+}
 
+/* Цвета как на макете
+.address {
+    color: var(--project-background)
+}
 
+.footer-mail,
+.footer-tell {
+    color: #FFFFFF99;
+}  */
+
+/* ПОРТФОЛИО */
+/* bottons */
+.btn-filtr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    color: var(--text-black);
+    background-color: var(--project-background);
+
+    border:none;
+
+    padding: 10px 20px;  /* ВРЕМЕНО! */
+
+    cursor: pointer;
+}
+
+.btn-filtr:focus,
+.btn-filtr:hover {
+    color: var(--project-background);
+    background-color: var(--link-brand-color);
+}
+
+/* Portfolio-list */
+.gallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
+
+    color: var(--text-black);
+}
+
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.87;
+
+    color: var(--text-gray);
+}
