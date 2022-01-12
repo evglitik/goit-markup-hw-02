@@ -7,9 +7,13 @@ body {
 
 /* переменные */
 :root {
-    --link-brand-color: #2196F3;
+    --brand-color: #2196F3;
+    --logo-web: #2196F3;
+    --logo-studio: #000000;
     --text-black: #212121;
     --text-gray: #757575;
+    --footer-tell-mail: #FFFFFF99;
+    --text-white: #FFFFFF;
     --project-background: #FFFFFF;
     --hero-background: #2F303A;
 }
@@ -18,25 +22,27 @@ body {
 
 .list { list-style: none; }
 
-/* LOGO */
+/* ----------------------------LOGO */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.logo-web { color: var(--link-brand-color); }
+.logo-web { color: var(--logo-web) }
 
-.logo-studio { color: var(--text-black); }
+.logo-studio { color: var(--logo-studio) }
 
-/* NAVIGATION */
+/* ----------------------------NAVIGATION */
 .header-list,
 .header-contact-list {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 
@@ -44,10 +50,10 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--link-brand-color);
+    color: var(--brand-color);
 }
 
-/* CONTACT */
+/* ----------------------------CONTACT */
 .header-mail,
 .header-tell {
     color: var(--text-gray);
@@ -61,15 +67,15 @@ body {
 .footer-mail:focus,
 .footer-tell:hover,
 .footer-tell:focus {
-    color: var(--link-brand-color);
+    color: var(--brand-color);
 }
 
-/* HERRO */
+/* ----------------------------HERRO */
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-
+    letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
 
@@ -77,27 +83,30 @@ body {
 }
 
 .btn-hero {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
 
     border:none;
 
     color: var(--project-background);
-    background-color: var(--link-brand-color);
+    background-color: var(--brand-color);
 
     padding: 25px 100px;  /* ВРЕМЕНО! */
 
     cursor: pointer;
 }
 
-/* PERECULIARITES */
+/* ----------------------------PERECULIARITES */
     /* .peculiarites-title {скрыть в будущем тайтл секции} */
 .peculiarity-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 
     color: var(--text-black);
     }
@@ -105,17 +114,19 @@ body {
 .peculiarity-text {
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 
     color: var(--text-gray);
     }
 
-/* ABAUT US + TEAM*/
+/* ----------------------------ABAUT US + TEAM*/
 .about-title,
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 
     color: var(--text-black);
 }
@@ -125,6 +136,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 
     color: var(--text-black);
 }
@@ -132,16 +144,18 @@ body {
 .teammate-profession {
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 
     color: var(--text-gray)
 }
 
-/* FOOTER */
+/* ----------------------------FOOTER */
 .address,
 .footer-mail,
 .footer-tell {
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* Временные цвета, для видимости текста */
@@ -159,12 +173,14 @@ body {
     color: #FFFFFF99;
 }  */
 
-/* ПОРТФОЛИО */
+/* ----------------------------ПОРТФОЛИО */
 /* bottons */
 .btn-filtr {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
 
     color: var(--text-black);
     background-color: var(--project-background);
@@ -179,7 +195,7 @@ body {
 .btn-filtr:focus,
 .btn-filtr:hover {
     color: var(--project-background);
-    background-color: var(--link-brand-color);
+    background-color: var(--brand-color);
 }
 
 /* Portfolio-list */
@@ -187,6 +203,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 0.5;
+    letter-spacing: 0.06em;
 
     color: var(--text-black);
 }
@@ -194,6 +211,7 @@ body {
 .gallery-text {
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
 
     color: var(--text-gray);
 }
